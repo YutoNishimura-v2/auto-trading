@@ -1,1 +1,1 @@
-# manga-vibe-search
+# auto-trading
