@@ -30,6 +30,9 @@ def screen_stocks() -> pd.DataFrame:
         last_price = last_row['Close']
         if last_price == 0: continue
         
+        if last_row['ATR'] < Config.MIN_ATR:
+            continue
+            
         atr_percent = (last_row['ATR'] / last_price) * 100
         
         # 3. Momentum Logic (Example: RSI not extremely overbought, but strong)

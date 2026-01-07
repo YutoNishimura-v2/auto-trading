@@ -31,6 +31,12 @@ Gemini-Sniper screens US stocks, generates technical charts, and uses Gemini's m
    python main.py
    ```
 
+## Testing
+Run the comprehensive unit test suite:
+```bash
+python -m pytest tests/
+```
+
 ## Deployment (GitHub Actions)
 The project includes a workflow `.github/workflows/daily_run.yml` that runs daily at market close.
 1. Push code to GitHub.
