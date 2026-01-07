@@ -1,0 +1,16 @@
+# Data
+yfinance
+pandas
+pandas_ta
+numpy
+
+# AI
+google-generativeai
+
+# Charting
+mplfinance
+matplotlib
+
+# Utilities
+python-dotenv
+requests
